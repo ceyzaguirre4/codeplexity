@@ -116,3 +116,17 @@ a:hover{
 	overflow:scroll;
 	white-space: nowrap;
 }
+
+.construction-banner{
+	position:sticky;   /* stays visible while scrolling */
+	top:0;
+	z-index:1000;
+	padding:.75rem 1rem;
+	text-align:center;
+	font-weight:600;
+	background:#fff3cd;     /* pale yellow */
+	color:#856404;          /* dark gold/brown text */
+	border-top:2px dashed currentColor;
+	border-bottom:2px dashed currentColor;
+	font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  }
