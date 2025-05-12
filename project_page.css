@@ -130,3 +130,22 @@ a:hover{
 	border-bottom:2px dashed currentColor;
 	font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   }
+
+@media (max-width: 768px) {
+	.project_author {
+		width: 50%; /* 2 per row on tablets/phones */
+	}
+	iframe {
+		width: 100%; /* Full width on tablets/phones */
+	}
+}
+
+@media (max-width: 480px) {
+	.project_author {
+		width: 100%; /* 1 per row on small phones */
+	}
+
+	.author_icon {
+		width: 40%; /* Smaller image on small screens */
+	}
+}
